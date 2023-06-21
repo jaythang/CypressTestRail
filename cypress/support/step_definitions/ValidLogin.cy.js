@@ -52,7 +52,7 @@ When ("I click on SignIn", () => {
 
 Then ("I should be redirected to the Dashboard", () => {
     cy.url().should('contains', 'https://onepitch.co/profile');
-    cy.wait(5000)
+    cy.wait(3000)
 });
 
 

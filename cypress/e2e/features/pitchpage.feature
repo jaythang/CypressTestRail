@@ -1,7 +1,7 @@
 Feature: Going to Pitch Page
 Valid Login
 
-Scenario: Valid Login
+Scenario: Creating a Pitch
 Given that I Login to One Pitch Site
 When I Enter my Username
 When I Enter my Password
